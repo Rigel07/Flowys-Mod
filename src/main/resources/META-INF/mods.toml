@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="flowys"
+version="1.0.0"
+displayName="Flowys"
+description='''
+Flowys: pequeñas flores con cara que vuelan por los campos. ¡Domestícalas con agua!
+'''
+
+[[dependencies.flowys]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.flowys]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
